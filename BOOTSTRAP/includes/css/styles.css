@@ -1,0 +1,171 @@
+  /*
+
+  My Custom CSS
+  =============
+
+  Author:  Brad Hussey
+  Updated: August 2013
+  Notes:	 Hand coded for Udemy.com
+
+  */
+
+
+  /* --------------------------------------
+     Layout
+     -------------------------------------- */
+
+
+
+  /* --------------------------------------
+     Typography
+     -------------------------------------- */
+
+
+
+
+
+
+     /* --------------------------------------
+        Navbar
+        -------------------------------------- */
+     #navbars
+     {
+       background-color:black;
+       z-index:999;
+     }
+
+
+     #aligning{
+       display:inline;
+  	    list-style: none;
+        font-family: cursive;
+     }
+
+
+     /* --------------------------------------
+        Global Styles
+        -------------------------------------- */
+
+     #para_color
+     {
+       background-color:grey;
+     }
+
+     #store_locator{
+       position:relative;
+       left:170px;
+     }
+
+
+     .myMenu{
+       width: 1000px;
+     }
+
+
+     video{
+       position:relative;
+       height:100%;
+       width:100%;
+       overflow: hidden;
+   }
+
+
+   #mypanel{
+     position:relative;
+     top:120px;
+   }
+   #mypanel1{
+     position:relative;
+     top:120px;
+   }
+
+
+     body{
+       font-family:'Lato'sans-serif;
+       font-size:14px;
+       background-color:white;
+     }
+
+
+     #vision{
+       background-color:#C0C0C0;
+     }
+
+
+     #space{
+       margin-top:20px;
+     }
+
+
+     #para_space{
+       margin-top:20px;
+     }
+
+
+     #panel1{
+       background:#D2B48C;
+     }
+    #mypanel2{
+       position:relative;
+       top:160px;
+     }
+
+/*-----------------------------------------
+  Footer
+  -----------------------------------------*/
+     #bottom{
+       background-color:#0B5345;
+       font-family:sans-serif;
+       color:#D68910;
+     }
+     #bottom1{
+       background-color:#0B5345;
+       font-family:sans-serif;
+       color:#D68910;
+       position:relative;
+       top:150px;
+     }
+
+
+  /* --------------------------------------
+     Carousel
+     -------------------------------------- */
+     .carousel-inner > .item > img,
+     .carousel-inner > .item > a > img {
+         width: 100%;
+         margin-top: 100px;
+         top:-20px;
+     }
+
+
+
+  /* --------------------------------------
+     Media Queries
+     -------------------------------------- */
+
+  /* Portrait & landscape phone */
+  @media (max-width: 480px) {
+
+  }
+
+  /* Landscape phone to portrait tablet */
+  @media (max-width: 768px) {
+    #section11 img{
+      width:400px;
+      height:300px;
+    }
+    #map_size{
+      width:300px;
+      height:300px;
+    }
+    }
+
+
+  /* Large desktop */
+  @media (min-width: 1200px) {
+
+  }
+  /*#list_css
+  {
+    text-decoration:none;
+  }*/
